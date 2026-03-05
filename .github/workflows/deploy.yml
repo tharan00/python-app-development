@@ -2,7 +2,8 @@ name: Python CI/CD Pipeline
 on:
   push:
     branches:
-      - main
+      - master
+    
 jobs:
   build:
     runs-on: ubuntu-latest
